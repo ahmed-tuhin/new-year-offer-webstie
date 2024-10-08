@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+   
+  
+
+*{ margin: 0;
+    padding: 0;
+ }
+ 
+ /* banner section styles */
+ .banner{
+    font-family: "Merriweather", serif;
+    background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
+    url("../images/banner.png");
+    
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    text-align: center;
+    align-items: center;
+}
+
+.banner-subtitle{
+    padding-top: 280px;
+    color: rgb(255, 255, 255);
+
+font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+   
+}
+.banner-title{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* offer section styles */
+.offer-container{
+    width: 800px;
+    height: 650px;
+    padding: 0 400px;
+    text-align:center;
+    margin-top: 120px;
+    font-family: "Inter", sans-serif; 
+    
+}
+.offer-container h1{
+    color: rgb(255, 0, 0);
+font-size: 88px;
+font-weight: 700;
+line-height: 107px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.offer-container h4{
+    color: rgb(255, 0, 0);
+   
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.offer-container h3{
+    color: rgb(7, 2, 17);
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 48px;
+}
+
+/* welcome section styles */
+.welcome{
+
+    padding-top:  144px;
+    margin-top: 120px;
+    border-radius: 15px;
+}
+.welcome-container{
+   
+    width: 1320px;
+    height: 600px;
+    margin-left: 140px;
+    padding-left: 50px;
+    
+     border-radius: 25px;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.welcome-container-title{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left;
+margin-top: 120px;
+}
+
+.welcome-container-description{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+margin-right: 50px;
+text-align: left;
+}
+
+.welcome-container-img{
+margin-top: 60px;
+
+
+
+}
+
+.btn-join{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+    background-color: transparent;
+    padding: 5px;
+
+}
+
+ 
